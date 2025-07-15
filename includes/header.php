@@ -65,8 +65,8 @@
                                 <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
                                 <ul class="sub-menu"><li><a href="service.php">Modules</a></li><li><a href="our-solution.php">Our Solution</a></li></ul>
                             </li>
-                                <li><a href="service.php">Modules</a>
-                                </li>
+                                <!-- <li><a href="service.php">Modules</a>
+                                </li> -->
                                 <li><a href="blog.php">Latest@HiGrade</a>
                                 </li>
                                 <li><a href="contact.php">Contact</a></li>

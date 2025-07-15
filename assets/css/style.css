@@ -5408,11 +5408,11 @@ a.text-theme:hover,
   position: relative;
 }
 .main-menu ul li.menu-item-has-children > a:after {
-  content: "\f078";
+  content: "\f067";
   position: relative;
   font-family: var(--icon-font);
   margin-left: 4px;
-  font-weight: 600;
+  font-weight: 900;
   top: 0;
   font-size: 1em;
 }
