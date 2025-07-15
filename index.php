@@ -23,7 +23,7 @@
                             </div>          
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6"> 
                         <div class="th-hero-image">
                             <div class="th-hero-thumb"><img src="assets/img/hero/heroimage.svg" alt="img"></div>
                         </div>
