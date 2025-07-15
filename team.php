@@ -118,7 +118,7 @@
         </div>        
     </div>
 </section>
-    <section class="space supportsec">
+    <!-- <section class="space supportsec">
       <div class="container">
         <div class="title-area text-center">
           <h2 class="sec-title">
@@ -184,7 +184,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <?php include_once('includes/footer.php'); ?>
     <?php include_once('partials/sitejs.php'); ?>
   </body>

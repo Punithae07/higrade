@@ -62,7 +62,9 @@
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li><a href="team.php">Team</a></li>
-                                <li><a href="our-solution.php">Our Solution</a></li>
+                                <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
+                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li><li><a href="our-solution.php">Our Solution</a></li></ul>
+                            </li>
                                 <li><a href="service.php">Modules</a>
                                 </li>
                                 <li><a href="blog.php">Latest@HiGrade</a>
