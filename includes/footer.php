@@ -7,7 +7,7 @@
                         <div class="footer-newsletter-content">
                             <h2 class="newsletter-title text-white">Request a Live Demo</h2>
                         </div>
-                        <form class="newsletter-form"><i class="fa-sharp fa-light fa-envelope"></i> <input class="form-control" type="email" placeholder="Email Address" required=""> <button type="submit" class="th-btn">Register Now</button></form>
+                        <form class="newsletter-form"><i class="fa fa-light fa-envelope"></i> <input class="form-control" type="email" placeholder="Email Address" required=""> <button type="submit" class="th-btn">Register Now</button></form>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
         <div class="copyright-wrap">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-9">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="https://boscosofttech.com/" target="_blank">Boscosoft</a>. All Rights Reserved | HiGrade is a brand owned and operated by Bosco Soft Technologies Pvt. Ltd.</p>
+                    <p class="copyright-text">Copyright <i class="fa fa-copyright"></i> 2025 <a href="https://boscosofttech.com/" target="_blank">Boscosoft</a>. All Rights Reserved | HiGrade is a brand owned and operated by Bosco Soft Technologies Pvt. Ltd.</p>
                 </div>
                 <div class="col-lg-3 text-center text-md-end">
                     <ul class="footer-menu">

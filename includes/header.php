@@ -17,8 +17,11 @@
                 </li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="team.php">Team</a></li>
-                <li><a href="our-solution.php">Our Solution</a></li>
-                <li><a href="service.php">Modules</a>
+                <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
+                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li><li><a href="our-solution.php">Our Solution</a></li></ul>
+                            </li>
+                <!-- <li><a href="our-solution.php">Our Solution</a></li>
+                <li><a href="service.php">Modules</a> -->
                 </li>
                 <li><a href="blog.php">Latest@HiGrade</a>
                 </li>
@@ -34,8 +37,8 @@
                 <div class="col-auto d-none d-md-block">
                     <div class="header-links">
                         <ul>
-                            <li><i class="fa-regular fa-phone"></i><a href="tel:+91 9626800800">+91 9626800800</a></li>
-                            <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular fa-location-dot"></i> <span>Tirupattur, Chennai</span></li>
+                            <li><i class="fa fa-phone"></i><a href="tel:+91 9626800800">+91 9626800800</a></li>
+                            <li class="d-none d-xl-inline-block"><i class="fa-sharp fa fa-location-dot"></i> <span>Tirupattur, Chennai</span></li>
                             <li><i class="fa-regular fa-envelope"></i><a href="mailto:binfo@boscosofttech.com">binfo@boscosofttech.com</a></li>
                             <li><i class="fa-regular fa-envelope"></i><a href="mailto:binfo@boscosofttech.com">higrade@boscosofttech.com</a></li>
 

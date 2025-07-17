@@ -83,16 +83,16 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" name="name" id="name" placeholder="First Name" />
-                                <i class="fal fa-user"></i>
+                                <i class="fa fa-user"></i>
                             </div>
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" name="name" id="name" placeholder="Last Name" />
-                                <i class="fal fa-user"></i>
+                                <i class="fa fa-user"></i>
                             </div>
                             <div class="form-group col-md-6">
                                 <input type="email" class="form-control" name="email" id="email"
                                     placeholder="Email Address" />
-                                <i class="fal fa-envelope"></i>
+                                <i class="fa fa-envelope"></i>
                             </div>
                             <!--<div class="form-group col-md-6">-->
                             <!--    <select name="subject" id="subject" class="form-select">-->
@@ -109,7 +109,7 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                             <div class="form-group col-md-6">
                                 <input type="tel" class="form-control" name="number" id="number"
                                     placeholder="Phone Number" />
-                                <i class="fal fa-phone"></i>
+                                <i class="fa fa-phone"></i>
                             </div>
                             <div class="form-group col-12">
                                 <textarea name="address" id="address" cols="30" rows="3" class="form-control"
@@ -119,11 +119,11 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                             <div class="form-group col-12">
                                 <textarea name="message" id="message" cols="30" rows="3" class="form-control"
                                     placeholder="Your Message"></textarea>
-                                <i class="fal fa-comment"></i>
+                                <i class="fa fa-comment"></i>
                             </div>
                             <div class="form-btn text-xl-start text-center col-12">
                                 <button class="th-btn">
-                                    Send Message<i class="fa-regular fa-arrow-right ms-2"></i>
+                                    Send Message<i class="fa fa-arrow-right ms-2"></i>
                                 </button>
                             </div>
                         </div>

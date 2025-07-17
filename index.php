@@ -97,35 +97,35 @@
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/gui.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Modern & Intuitive Interface</a></h3>
-                                <p class="service_card4_text">Our software features a sleek, user-friendly design that enhances usability for all users — from administrators to first-time users.</p>
+                                <p class="service_card4_text pb-10" >Our software features a sleek, user-friendly design that enhances usability for all users — from administrators to first-time users.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/secure.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Secure, Anywhere Access</a></h3>
-                                <p class="service_card4_text">Access the platform safely from any device via internet or local network, protected by unique login credentials and secure protocols.</p>
+                                <p class="service_card4_text pb-40">Access the platform safely from any device via internet or local network, protected by unique login credentials and secure protocols.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/service.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Comprehensive Service Support</a></h3>
-                                <p class="service_card4_text">We offer complete end-to-end services including installation, onboarding, training, and dedicated technical support to ensure your success.</p>
+                                <p class="service_card4_text pb-10">We offer complete end-to-end services including installation, onboarding, training, and dedicated technical support to ensure your success.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/scalable.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Fully Scalable for Growth</a></h3>
-                                <p class="service_card4_text">HiGrade is designed to grow with your institution — whether you're managing a single college or a network of campuses.</p>
+                                <p class="service_card4_text pb-40">HiGrade is designed to grow with your institution — whether you're managing a single college or a network of campuses.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/reports.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Tailored Reports & Data Exports</a></h3>
-                                <p class="service_card4_text">Generate fully customized reports to meet your institution's needs. Export data easily in Excel, PDF, and other formats.</p>
+                                <p class="service_card4_text pb-10">Generate fully customized reports to meet your institution's needs. Export data easily in Excel, PDF, and other formats.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -139,14 +139,14 @@
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/support.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Expert Customer Support</a></h3>
-                                <p class="service_card4_text">Our responsive support team of professionals is available to help via phone, email, or chat — ensuring smooth operations at all times.</p>
+                                <p class="service_card4_text pb-40">Our responsive support team of professionals is available to help via phone, email, or chat — ensuring smooth operations at all times.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/userfriendly.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Easy to Learn, Easy to Use</a></h3>
-                                <p class="service_card4_text">Designed with simplicity in mind, HiGrade is easy to learn even for non-technical users. We also provide detailed documentation for support.
+                                <p class="service_card4_text pb-40">Designed with simplicity in mind, HiGrade is easy to learn even for non-technical users. We also provide detailed documentation for support.
 
 </p>
                             </div>
@@ -155,7 +155,7 @@
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/cost.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Cost-Effective Pricing</a></h3>
-                                <p class="service_card4_text">Get powerful features at a budget-friendly price — making it accessible for institutions of all sizes.</p>
+                                <p class="service_card4_text pb-60">Get powerful features at a budget-friendly price — making it accessible for institutions of all sizes.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -176,7 +176,7 @@
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/sms.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Smart SMS & Email Notifications</a></h3>
-                                <p class="service_card4_text">Improve communication with real-time SMS and email alerts for attendance, grades, announcements, and more.</p>
+                                <p class="service_card4_text pb-30">Improve communication with real-time SMS and email alerts for attendance, grades, announcements, and more.</p>
                             </div>
                         </div>
                     </div>
@@ -449,7 +449,7 @@
                                 </div>
                                 <div class="testi-box_content">
                                     <p class="testi-box_text">The HiGrade ERP offered by Bosco Soft Technologies enables our institute to move towards excellence. With various possibilities of analysis and report generation, we are endowed....</p>
-                                    <h3 class="box-title clg-pripal">Rev. Fr. Prince Raja SDB</h3>
+                                    <h3 class="box-title clg-pripal test-title">Rev. Fr. Prince Raja SDB</h3>
                                     <p class="testi-box_desig">Dean of Studies</p>
                                 </div>
                             </div>
@@ -462,7 +462,7 @@
                                 <div class="testi-box_content">
                                     <p class="testi-box_text">We had two strong months so far with the HiGrade ERP portal. As an institution believes in the trustworthiness of a software, you have made it to the next level of executingWe had two strong months so far....</p>
                                     <!--<div class="testi-box_review"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>-->
-                                    <h3 class="box-title">Dr. Deepa BM</h3>
+                                    <h3 class="box-title test-title">Dr. Deepa BM</h3>
                                     <p class="testi-box_desig">Principal</p>
                                 </div>
                             </div>
@@ -474,7 +474,7 @@
                                 </div>
                                 <div class="testi-box_content">
                                     <p class="testi-box_text">I appreciate the initiatives taken by the Boscosoft to make our dream realized in the form of HiGrade ERP. It can be of great help for the higher education institutions....</p>
-                                    <h3 class="box-title">Rev. Fr. S. Bharathi Bernadsha SDB</h3>
+                                    <h3 class="box-title test-title">Rev. Fr. S. Bharathi Bernadsha SDB</h3>
                                     <p class="testi-box_desig">Vice Principal</p>
                                 </div>
                             </div>
@@ -486,7 +486,7 @@
                                 </div>
                                 <div class="testi-box_content">
                                     <p class="testi-box_text">The HiGrade ERP is user friendly and it gives overall reports of the institute. And it helps us to maintain students profile effectively and we are able maintain students mentoring easily for our reference....</p>
-                                    <h3 class="box-title">Rev. Fr. John Joseph SDB</h3>
+                                    <h3 class="box-title test-title">Rev. Fr. John Joseph SDB</h3>
                                     <p class="testi-box_desig">Vice Principal</p>
                                 </div>
                             </div>
@@ -498,7 +498,7 @@
                                 </div>
                                 <div class="testi-box_content">
                                     <p class="testi-box_text">Kudos to Boscosoft Team for strategizing and developing a comprehensive and effective ERP for automation of HEIs. St. Alphonsa College of Arts and Science, Karungal is very.... </p>
-                                    <h3 class="box-title">Dr S Isias</h3>
+                                    <h3 class="box-title test-title">Dr S Isias</h3>
                                     <p class="testi-box_desig">Principal</p>
                                 </div>
                             </div>
@@ -525,7 +525,7 @@
                                     <div class="blog-meta"><a href="blog.php"><i class="far fa-calendar"></i>10, 2024</a>
                                     </div>
                                     <p>HiGrade Mobile App Login Tutorial</p>
-                                    <h3 class="box-title"><a href="#">You can refer the above video to login to our HiGrade Mobile app</a></h3><a href="blog-details.php" class="line-btn">Read Details<i class="fa-solid fa-angles-right"></i></a>
+                                    <h3 class="box-title title-clr"><a href="#">You can refer the above video to login to our HiGrade Mobile app</a></h3><a href="blog-details.php" class="line-btn but-hov">Read Details<i class="fa-solid fa-angles-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -535,7 +535,7 @@
                                 <div class="blog-box2_content">
                                     <div class="blog-meta"><a href="blog.php"><i class="far fa-calendar"></i>15, 2024</a></div>
                                     <p>Outcome Based Education</p>
-                                    <h3 class="box-title"><a href="#">The traditional education system is outdated and in need of a significant</a></h3><a href="blog-details.php" class="line-btn">Read Details<i class="fa-solid fa-angles-right"></i></a>
+                                    <h3 class="box-title title-clr"><a href="#">The traditional education system is outdated and in need of a significant</a></h3><a href="blog-details.php" class="line-btn but-hov">Read Details<i class="fa-solid fa-angles-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -545,7 +545,7 @@
                                 <div class="blog-box2_content">
                                     <div class="blog-meta"><a href="blog.php"><i class="far fa-calendar"></i>16, 2024</a></div>
                                     <p>Controller of Examination</p>
-                                    <h3 class="box-title"><a href="#">Boscosoft is proud to announce the design and development of our comprehensive</a></h3><a href="blog-details.php" class="line-btn">Read Details<i class="fa-solid fa-angles-right"></i></a>
+                                    <h3 class="box-title title-clr"><a href="#">Boscosoft is proud to announce the design and development of our comprehensive</a></h3><a href="blog-details.php" class="line-btn but-hov">Read Details<i class="fa-solid fa-angles-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -555,7 +555,7 @@
                                 <div class="blog-box2_content">
                                     <div class="blog-meta"><a href="blog.php"><i class="far fa-calendar"></i>17, 2024</a> <a href="blog.php"></div>
                                     <p>Education 5.0</p>
-                                    <h3 class="box-title"><a href="#">Our Team represented by Mrs. Deepa, Mr. Yesuraja, Mr. Clament & Mr Joe Nishanth</a></h3><a href="blog-details.php" class="line-btn">Read Details<i class="fa-solid fa-angles-right"></i></a>
+                                    <h3 class="box-title title-clr"><a href="#">Our Team represented by Mrs. Deepa, Mr. Yesuraja, Mr. Clament & Mr Joe Nishanth</a></h3><a href="blog-details.php" class="line-btn but-hov">Read Details<i class="fa-solid fa-angles-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -565,7 +565,7 @@
                                 <div class="blog-box2_content">
                                     <div class="blog-meta"><a href="blog.php"><i class="far fa-calendar"></i>19, 2024</a></div>
                                     <p>Mobile App</p>
-                                    <h3 class="box-title"><a href="#">We have optimized the features and designed a user-friendly native mobile</a></h3><a href="blog-details.php" class="line-btn">Read Details<i class="fa-solid fa-angles-right"></i></a>
+                                    <h3 class="box-title title-clr"><a href="#">We have optimized the features and designed a user-friendly native mobile</a></h3><a href="blog-details.php" class="line-btn but-hov">Read Details<i class="fa-solid fa-angles-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -575,7 +575,7 @@
                                 <div class="blog-box2_content">
                                     <div class="blog-meta"><a href="blog.php"><i class="far fa-calendar"></i>20, 2024</a></div>
                                     <p>NAAC</p>
-                                    <h3 class="box-title"><a href="blog-details.php">We are working on the NAAC criteria metrics to assist the academic</a></h3><a href="blog-details.php" class="line-btn">Read Details<i class="fa-solid fa-angles-right"></i></a>
+                                    <h3 class="box-title title-clr"><a href="blog-details.php">We are working on the NAAC criteria metrics to assist the academic</a></h3><a href="blog-details.php" class="line-btn but-hov">Read Details<i class="fa-solid fa-angles-right"></i></a>
                                 </div>
                             </div>
                         </div>
