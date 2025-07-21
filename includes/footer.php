@@ -7,7 +7,7 @@
                         <div class="footer-newsletter-content">
                             <h2 class="newsletter-title text-white">Request a Live Demo</h2>
                         </div>
-                        <form class="newsletter-form"><i class="fa fa-light fa-envelope"></i> <input class="form-control" type="email" placeholder="Email Address" required=""> <button type="submit" class="th-btn">Register Now</button></form>
+                        <form class="newsletter-form"><i class="fa fa-envelope"></i> <input class="form-control" type="email" placeholder="Email Address" required=""> <button type="submit" class="th-btn">Register Now</button></form>
                     </div>
                 </div>
             </div>
