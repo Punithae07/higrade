@@ -31,6 +31,7 @@
 <script src="assets/js/gsap.min.js" defer></script>
 <script src="assets/js/ScrollTrigger.min.js" defer></script>
 <script src="assets/js/smooth-scroll.js" defer></script>
+<script src="assets/js/contact.js" defer></script>
 
 <!-- Particle background -->
 <script src="assets/js/particles.min.js" defer></script>
