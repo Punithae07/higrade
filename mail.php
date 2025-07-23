@@ -66,8 +66,7 @@ try {
 
     $mail->send();
     echo '<div class="form-messages success" style="color: green; font-weight: bold;">Thank you! Your message has been sent successfully.</div>';
-} catch (PDOException $e) {
-    echo '<div class="form-messages error" style="color: red; font-weight: bold;">Database error: ' . htmlspecialchars($e->getMessage()) . '</div>';
-} catch (Exception $e) {
+}
+ catch (Exception $e) {
     echo '<div class="form-messages error" style="color: red; font-weight: bold;">Mailer Error: ' . htmlspecialchars($e->getMessage()) . '</div>';
 }
