@@ -1,615 +1,307 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-  <head>
-    <?php include_once('partials/sitelinks.php'); ?>
-  </head>
-  <body>
-    <?php include_once('includes/header.php'); ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-      <div class="container">
-        <div class="breadcumb-content">
-          <h1 class="breadcumb-title">Modules</h1>
-          <ul class="breadcumb-menu">
-            <li><a href="index.php">Home</a></li>
-            <li>Modules</li>
-          </ul>
-        </div>
+
+<head>
+  <?php include_once('partials/sitelinks.php'); ?>
+</head>
+
+<body>
+  <?php include_once('includes/header.php'); ?>
+  <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <div class="container">
+      <div class="breadcumb-content">
+        <h1 class="breadcumb-title">Modules</h1>
+        <ul class="breadcumb-menu">
+          <li><a href="index.php">Home</a></li>
+          <li>Modules</li>
+        </ul>
       </div>
     </div>
-    <section class="space" id="service-sec">
-      <div class="container">
-        <div class="row gy-4">
-          <h3>Core Academic Operations</h3>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">01</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/acadmic.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Academics (Programme)</a>
-              </h3>
-              <p class="service-card_text">
-               Manage all academic programmes, including curriculum structure, regulations, and course mapping. Streamline academic planning and ensure alignment with institutional goals.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">02</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/coru-reg.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Course Registration</a>
-              </h3>
-              <p class="service-card_text">
-               Enable students to register for courses online with automated approval workflows. Monitor credit limits, prerequisites, and real-time enrollment statistics.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">03</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/out-edu.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Outcome Based Education</a>
-              </h3>
-              <p class="service-card_text">
-                Track Course Outcomes (COs) and Program Outcomes (POs) to ensure academic excellence. Generate attainment reports and improve teaching-learning processes with data-driven insights.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">04</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/insternal-ass.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Internal Assessment</a>
-              </h3>
-              <p class="service-card_text">
-                Digitize internal assessments, manage mark entries, and generate reports. Support multiple evaluation components with customizable weightages and grade calculations.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">05</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/contr-edu.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Controller of Examinations</a>
-              </h3>
-              <p class="service-card_text">
-                Automate end-to-end examination workflows including scheduling, seating, hall ticket generation, valuation, and result publication with audit trails.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">06</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/staff_att.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Academic Mentoring</a>
-              </h3>
-              <p class="service-card_text">
-                Facilitate structured mentoring between faculty and students. Record meeting logs, monitor academic progress, and support personalized guidance.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">07</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/timetable.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Time Table</a>
-              </h3>
-              <p class="service-card_text">
-                Easily create and manage class schedules for all departments. Handle faculty allocations, room availability, and timetable conflicts with smart suggestions. </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">08</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/semester.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Student Attendance</a>
-              </h3>
-              <p class="service-card_text">
-                Track attendance across courses with multiple marking modes. Generate defaulter lists, notify absentees, and integrate with academic performance reports.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">09</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/student-pro.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Student Profile</a>
-              </h3>
-              <p class="service-card_text">
-                Maintain a centralized record of every student’s academic, personal, and disciplinary details. Enable secure access to students and staff with role-based permissions.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">10</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/id_card.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Staff Profile</a>
-              </h3>
-              <p class="service-card_text">
-               Manage staff credentials, qualifications, workload, and teaching history in one place. Facilitate performance tracking and administrative reviews.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">11</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/add-on.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Add-on Programs</a>
-              </h3>
-              <p class="service-card_text">
-                Handle registration, scheduling, and certification for value-added and skill-based courses. Track enrolment trends and student participation.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">12</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/feedback.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Feedback</a>
-              </h3>
-              <p class="service-card_text">
-                Collect feedback from students, parents, and staff on courses, faculty, and facilities. Analyze data to drive continuous improvement in academic delivery. </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <h3>Academic Support & Engagement</h3>
+  </div>
+  <div class="overflow-hidden space background-image" style="background:#0000">
+    <div class="container th-container5">
+      <div class="row gy-4">
+        <h3>Functional Categories</h3>
 
-           <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">13</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/library.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Research</a>
-              </h3>
-              <p class="service-card_text">
-               Support research activities by tracking projects, publications, and funding. Maintain a research repository and generate performance analytics.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+            <div class="box-title-icon">
+            <div class="shape-icon">
+              <img src="assets/img/service/library.svg" alt="Icon">
+              <span class="dots"></span>
+            </div><h3 class="box-title">Academic Programme Management</h3></div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20 mt-10">Manages academic structure, programme offerings, and curriculum lifecycle. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Academics (Programme)</li>
+                <li><i class="fas fa-circle-check"></i>Course Registration</li>
+                <li><i class="fas fa-circle-check"></i>Time Table</li>
+                <li><i class="fas fa-circle-check"></i>Add-on Programs</li>
+                <li><i class="fas fa-circle-check"></i>Academic Calendar</li>               
+              </ul>
             </div>
           </div>
-           <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">14</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/calender.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Calendar</a>
-              </h3>
-              <p class="service-card_text">
-                Publish academic calendars, events, exam schedules, and institutional deadlines. Provide timely updates to all stakeholders through a unified interface.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-           <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">15</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/certificate.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Certificates</a>
-              </h3>
-              <p class="service-card_text">
-                Generate and issue academic and non-academic certificates such as bonafide, conduct, and transfer certificates digitally with verification features.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-           <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">16</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/schor.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Scholarship</a>
-              </h3>
-              <p class="service-card_text">
-               Manage student scholarship applications, approvals, disbursements, and eligibility checks. Track usage and generate compliance-ready reports.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">17</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/research.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Grievance Redressal</a>
-              </h3>
-              <p class="service-card_text">
-                Offer a structured platform for students and staff to raise issues. Track resolutions, assign responsibility, and ensure timely redressal.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">18</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/com.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Communication</a>
-              </h3>
-              <p class="service-card_text">
-                Enable internal communication through SMS, email, and notifications. Automate reminders, announcements, and alerts to keep everyone informed.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">19</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/circular.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Circular</a>
-              </h3>
-              <p class="service-card_text">
-              Digitally publish circulars and official notices with controlled visibility. Ensure timely dissemination and reduce paper-based communication.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">20</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/event-mag.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Events Management</a>
-              </h3>
-              <p class="service-card_text">
-                Plan, promote, and manage academic, cultural, and sports events. Track attendance, send reminders, and document event outcomes.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">21</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/alumni.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Alumni</a>
-              </h3>
-              <p class="service-card_text">
-               Build a strong alumni network with engagement tools, event updates, and communication channels. Maintain alumni records and contributions.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">22</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/meeting.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Meetings</a>
-              </h3>
-              <p class="service-card_text">
-                Schedule and document department and institutional meetings. Manage invitations, agenda, minutes, and attendance digitally.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          <h2>Administrative & Infrastructure</h2>
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">23</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/online-add.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Online Admission</a>
-              </h3>
-              <p class="service-card_text">
-                Digitize the entire admission lifecycle from application to enrollment. Manage eligibility, documents, merit lists, and fee payments online.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">24</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/on-fee.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Fee Management</a>
-              </h3>
-              <p class="service-card_text">
-                Automate fee collection with customizable fee structures, payment gateways, and fine rules. Generate financial reports and track dues easily.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">25</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/leave-mange.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Leave Management</a>
-              </h3>
-              <p class="service-card_text">
-                Streamline faculty and staff leave requests, approvals, and balances. Enable role-based access and leave history tracking.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">26</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/bus-mange.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Transport</a>
-              </h3>
-              <p class="service-card_text">
-                Manage routes, bus stops, schedules, and student allocations. Track vehicle maintenance and optimize fleet operations.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">27</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/front-office.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Front Office</a>
-              </h3>
-              <p class="service-card_text">
-                Organize visitor management, inquiries, and appointment scheduling. Maintain logs for transparency and security.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">28</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/syst-ad.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">System Admin</a>
-              </h3>
-              <p class="service-card_text">
-               Configure user roles, permissions, module access, and security settings. Ensure smooth functioning and control over the entire system.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">29</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/start-com.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Statutory Compliance</a>
-              </h3>
-              <p class="service-card_text">
-               Generate reports required for university, AICTE, NAAC, NBA, and other bodies. Ensure timely submissions with minimal manual intervention.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">30</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/port-dashboard.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Portal Dashboard</a>
-              </h3>
-              <p class="service-card_text">
-                Get a bird’s-eye view of key metrics through customizable dashboards. Enable quick decisions with real-time data across all modules.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">31</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/web-port.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Web Portal</a>
-              </h3>
-              <p class="service-card_text">
-               Provide a dynamic and informative college website integrated with HiGrade. Display academic info, news, events, and downloadable resources.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 serivice-card-hight">
-            <div class="service-card">
-              <div class="service-card_number">32</div>
-              <div class="shape-icon">
-                <img src="assets/img/service/support-deck.svg" alt="Icon" />
-                <span class="dots"></span>
-              </div>
-              <h3 class="box-title">
-                <a href="javascript:void(0)">Support Desk</a>
-              </h3>
-              <p class="service-card_text">
-               Enable users to raise technical or functional support tickets. Track resolutions, assign priority levels, and ensure timely assistance.
-              </p>
-              <div class="bg-shape">
-                <img src="assets/img/bg/service_card_bg.png" alt="bg" />
-              </div>
-            </div>
-          </div>  
         </div>
+
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+        <div class="box-title-icon">
+            <div class="shape-icon">
+              <img src="assets/img/service/contr-edu.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Student Evaluation & Examination</h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Handles internal assessments, formal examinations, and evaluation processes.</p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Internal Assessment</li>
+                <li><i class="fas fa-circle-check"></i>Controller of Examinations</li>
+                <li><i class="fas fa-circle-check"></i>Academic Mentoring</li>
+                <li><i class="fas fa-circle-check"></i>Student Attendance</li>
+                <li><i class="fas fa-circle-check"></i>Feedback</li>             
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+             <div class="box-title-icon">   
+              <div class="shape-icon">
+              <img src="assets/img/service/alumni.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Student Lifecycle Management</h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Covers the entire student journey from admission to graduation and beyond.</p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Online Admission</li>
+                <li><i class="fas fa-circle-check"></i>Student Profile</li>
+                <li><i class="fas fa-circle-check"></i>Course Enrollment</li>
+                <li><i class="fas fa-circle-check"></i>Certificates</li>
+                <li><i class="fas fa-circle-check"></i>Scholarship</li> 
+                <li><i class="fas fa-circle-check"></i>Alumni</li>              
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+             <div class="box-title-icon">
+              <div class="shape-icon">
+                <img src="assets/img/service/online-add.svg" alt="Icon">
+                <span class="dots"></span>
+              </div>  
+              <h3 class="box-title">Staff Lifecycle & HR Management </h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Manages faculty and staff records, leave, and payroll processes. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Staff Profile</li>
+                <li><i class="fas fa-circle-check"></i>Leave Management</li>
+                <li><i class="fas fa-circle-check"></i>Payroll</li>             
+              </ul>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+
+            <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/add-on.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>  
+              <h3 class="box-title">Finance & Accounts</h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Controls financial operations across students and employees.</p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Fee Management</li>
+                <li><i class="fas fa-circle-check"></i>Scholarship</li>
+                <li><i class="fas fa-circle-check"></i>Statutory Compliance</li>             
+              </ul>
+            </div>
+          </div>
+        </div>
+
+           <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+
+           <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/port-dashboard.svg" alt="Icon">
+              <span class="dots"></span>
+            </div> 
+              <h3 class="box-title">Learning & Knowledge Delivery </h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Enables classroom and digital learning with academic resources.</p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Learning Management System (LMS) 
+ </li>
+                <li><i class="fas fa-circle-check"></i>Digital Repository 
+ </li>           
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+
+            <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/out-edu.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Academic Quality & Accreditation </h3>
+            </div>
+
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Ensures outcome tracking, continuous improvement, and regulatory alignment. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Outcome Based Education (OBE)</li>
+                <li><i class="fas fa-circle-check"></i>Feedback (as input for attainment)</li>    
+                <li><i class="fas fa-circle-check"></i>Research</li>   
+                <li><i class="fas fa-circle-check"></i>Statutory Compliance (academic audits, NAAC/NBA metrics)</li>          
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+             <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/circular.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Communication & Engagement </h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Facilitates communication between institution, students, staff, and alumni. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Communication</li>
+                <li><i class="fas fa-circle-check"></i>Circular</li>    
+                <li><i class="fas fa-circle-check"></i>Grievance Redressal </li>   
+                <li><i class="fas fa-circle-check"></i>Support Desk</li>          
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+            <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/event-mag.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Events, Meetings & Scheduling</h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Co-curricular and administrative scheduling of institutional activities. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Events Management</li>
+                <li><i class="fas fa-circle-check"></i>Meetings</li>    
+                <li><i class="fas fa-circle-check"></i>Calendar (also listed in Academic Programme)</li>                 </ul>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+          <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/research.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Documentation & Reporting</h3>
+            </div>
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Structured documentation, records generation, and output control. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Documentation Management</li>
+                <li><i class="fas fa-circle-check"></i>Certificates (also under Student Lifecycle)</li>    
+                <li><i class="fas fa-circle-check"></i>Reports / Print Formats</li>                 </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+             <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/syst-ad.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title"> Portals & Self-Service Interfaces</h3>
+            </div>
+
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Dashboards and role-based access for real-time usage. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Web Portal</li>
+                <li><i class="fas fa-circle-check"></i>Portal Dashboard</li>    
+                <li><i class="fas fa-circle-check"></i>Mobile App (if applicable)</li>                 </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="price-box style7 th-ani">
+
+          <div class="box-title-icon">
+              <div class="shape-icon">
+              <img src="assets/img/service/port-dashboard.svg" alt="Icon">
+              <span class="dots"></span>
+            </div>
+              <h3 class="box-title">Campus Operations & Logistics</h3>
+            </div>
+
+
+            <div class="price-title-wrap">
+              <p class="price-box_text mb-20">Manages institutional services and physical infrastructure. </p>
+            </div>
+            <div class="available-list">
+              <ul>
+                <li><i class="fas fa-circle-check"></i>Transport</li>
+                <li><i class="fas fa-circle-check"></i>Front Office </li>
+               </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </section>
-    <?php include_once('includes/footer.php'); ?>
-    <?php include_once('partials/sitejs.php'); ?>
-  </body>
+    </div>
+  </div>
+  <?php include_once('includes/footer.php'); ?>
+  <?php include_once('partials/sitejs.php'); ?>
+</body>
+
 </html>
