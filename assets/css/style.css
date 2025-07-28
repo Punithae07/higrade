@@ -33733,3 +33733,6 @@ span.select2-selection.select2-selection--single:focus {
   display: flex;
   align-items: center;
 }
+.box-title-icon h3{
+  padding-left: 5px !important;
+}
