@@ -71,10 +71,10 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                     </div>
                     <form action="mail.php" method="POST" class="contact-form ajax-contact">
                         <div class="row">
-                            <div class="form-group col-md-6"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"></div>
+                            <div class="form-group col-md-6"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required ></div>
                             <div class="form-group col-md-6"><input type="text" class="form-control" name="orgname" id="orgname" placeholder="Organization Name"> </div>
-                            <div class="form-group col-md-6"><input type="email" class="form-control" name="email" id="email" placeholder="Email Address"></div>
-                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> </div>
+                            <div class="form-group col-md-6"><input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required ></div>
+                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number" required > </div>
                             <div class="form-group col-12">
                                     <textarea name="address" id="address" cols="30" rows="3" class="form-control" placeholder="Your Address"></textarea>
                                 </div>
@@ -90,7 +90,7 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.4567831978243!2d78.63016157411398!3d12.586120823214362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badaaea950786f3%3A0x5f3b489cca9a30a2!2sBosco%20Soft%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1747895255639!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
      <?php include_once('includes/footer.php'); ?>
     <?php include_once('partials/sitejs.php'); ?>
-    <script>
+    <!-- <script>
         document.querySelector('.contact-form').addEventListener('submit', function (e) {
             e.preventDefault();
 
@@ -110,6 +110,49 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
             });
         });
         </script>
+        <script>
+            document.querySelector('.contact-form').addEventListener('submit', function (e) {
+                const submitBtn = this.querySelector('button[type="submit"]');
+                submitBtn.disabled = true;
+            });
+            </script> -->
+
+
+            <script>
+document.querySelector('.contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const messageBox = document.querySelector('.form-messages');
+
+    // Disable submit button to prevent multiple submissions
+    submitBtn.disabled = true;
+
+    fetch(form.action, {
+        method: 'POST',
+        body: formData
+    })
+    .then(res => res.text())
+    .then(data => {
+        messageBox.innerHTML = data;
+
+        // Check if the response contains a success message
+        if (data.includes('form-messages success')) {
+            form.reset(); // Clear the form on success
+        }
+
+        submitBtn.disabled = false; // Re-enable the button
+    })
+    .catch(error => {
+        messageBox.innerHTML = '<div class="form-messages error">An error occurred. Please try again.</div>';
+        submitBtn.disabled = false; // Re-enable on error too
+    });
+});
+</script>
+
+
 </body>
 
 </html>
