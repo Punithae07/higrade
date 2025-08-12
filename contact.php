@@ -60,99 +60,87 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
             </div>
         </div>
     </div>
-    <div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8">
-                    <div class="title-area mb-35 text-xl-start text-center"><span class="sub-title">
-                            <div class="icon-masking me-2"><span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg"></span></div>contact with us!
-                        </span>
-                        <h2 class="sec-title">Join now for a free trial</h2>        
-                    </div>
-                    <form action="mail.php" method="POST" class="contact-form ajax-contact">
-                        <div class="row">
-                            <div class="form-group col-md-6"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required ></div>
-                            <div class="form-group col-md-6"><input type="text" class="form-control" name="orgname" id="orgname" placeholder="Organization Name"> </div>
-                            <div class="form-group col-md-6"><input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required ></div>
-                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number" required > </div>
-                            <div class="form-group col-12">
-                                    <textarea name="address" id="address" cols="30" rows="3" class="form-control" placeholder="Your Address"></textarea>
-                                </div>
-                            <div class="form-group col-12"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> </div>
-                            <div class="form-btn text-xl-start text-center col-12"><button class="th-btn">Send Message</button></div>
+
+
+<div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="title-area mb-35 text-xl-start text-center">
+                    <span class="sub-title">
+                        <div class="icon-masking me-2">
+                            <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg"></span>
                         </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
+                        contact with us!
+                    </span>
+                    <h2 class="sec-title">Join now for Demo</h2>        
                 </div>
+            
+                   <form id="contactForm">
+                        <div class="row g-3 mb-5">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" required minlength="10" maxlength="15" pattern="[0-9]{10,15}">
+                                    </div>
+                            <div class="col-12 mb-3">
+                                <textarea name="address" id="address" class="form-control" placeholder="Your Address" rows="2"></textarea>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <textarea name="message" id="message" class="form-control" placeholder="Your Message" rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary submit-btn w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div id="loader" style="display:none;">Submitting...</div>
+                    <div id="response"></div>
+                
             </div>
         </div>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.4567831978243!2d78.63016157411398!3d12.586120823214362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badaaea950786f3%3A0x5f3b489cca9a30a2!2sBosco%20Soft%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1747895255639!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-     <?php include_once('includes/footer.php'); ?>
-    <?php include_once('partials/sitejs.php'); ?>
-    <!-- <script>
-        document.querySelector('.contact-form').addEventListener('submit', function (e) {
-            e.preventDefault();
+</div>  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.4567831978243!2d78.63016157411398!3d12.586120823214362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badaaea950786f3%3A0x5f3b489cca9a30a2!2sBosco%20Soft%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1747895255639!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<?php include_once('includes/footer.php'); ?>
+<?php include_once('partials/sitejs.php'); ?>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('#contactForm').on('submit', function (e) {
+        e.preventDefault();
+        $('#loader').show();
 
-            const form = e.target;
-            const formData = new FormData(form);
-
-            fetch(form.action, {
-                method: 'POST',
-                body: formData
-            })
-            .then(res => res.text())
-            .then(data => {
-                document.querySelector('.form-messages').innerHTML = data;
-            })
-            .catch(error => {
-                document.querySelector('.form-messages.error').innerHTML = '<div class="form-messages error">An error occurred. Please try again.</div>';
-            });
+        $.ajax({
+            type: 'POST',
+            url: 'demoform.php',
+            data: $(this).serialize(),
+            dataType: 'json',
+            success: function (response) {
+                $('#loader').hide();
+                if (response.status === 'success') {
+                    $('#response').html('<div class="alert alert-success">' + response.message + '</div>');
+                    $('#contactForm')[0].reset();
+                } else {
+                    $('#response').html('<div class="alert alert-danger">' + response.message + '</div>');
+                }
+            },
+            error: function () {
+                $('#loader').hide();
+                $('#response').html('<div class="alert alert-danger">Something went wrong!</div>');
+            }
         });
-        </script>
-        <script>
-            document.querySelector('.contact-form').addEventListener('submit', function (e) {
-                const submitBtn = this.querySelector('button[type="submit"]');
-                submitBtn.disabled = true;
-            });
-            </script> -->
-
-
-            <script>
-document.querySelector('.contact-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    const form = e.target;
-    const formData = new FormData(form);
-    const submitBtn = form.querySelector('button[type="submit"]');
-    const messageBox = document.querySelector('.form-messages');
-
-    // Disable submit button to prevent multiple submissions
-    submitBtn.disabled = true;
-
-    fetch(form.action, {
-        method: 'POST',
-        body: formData
-    })
-    .then(res => res.text())
-    .then(data => {
-        messageBox.innerHTML = data;
-
-        // Check if the response contains a success message
-        if (data.includes('form-messages success')) {
-            form.reset(); // Clear the form on success
-        }
-
-        submitBtn.disabled = false; // Re-enable the button
-    })
-    .catch(error => {
-        messageBox.innerHTML = '<div class="form-messages error">An error occurred. Please try again.</div>';
-        submitBtn.disabled = false; // Re-enable on error too
     });
 });
 </script>
-
-
 </body>
 
 </html>

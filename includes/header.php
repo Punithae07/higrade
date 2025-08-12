@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="th-menu-wrapper">
-    <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+    <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fa fa-times"></i></button>
         <div class="mobile-logo"><a class="icon-masking" href="index.php"><span data-mask-src="assets/img/higrade-logo.png" class="mask-icon"></span><img src="assets/img/higrade-logo.png" alt="Webteck"></a></div>
         <div class="th-mobile-menu">
             <ul>
@@ -58,7 +58,7 @@
                     <div class="col-auto col-xl-2 col-md-2 col-sm-3">
                         <div class="header-logo"><a class="icon-masking" href="index.php"><span data-mask-src="assets/img/higrade-logo.png" class="mask-icon"></span><img src="assets/img/higrade-logo01.png" alt="Webteck"></a></div>
                     </div>
-                    <div class="col-auto col-xl-8 col-md-8 col-sm-9">
+                    <div class="col-auto col-xl-8 col-md-8 col-sm-9 d-flex justify-content-center">
                         <nav class="main-menu style2 d-none d-lg-inline-block">
                             <ul>
                                <li><a href="index.php">Home</a>
@@ -74,7 +74,7 @@
                                 </li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
-                        </nav><button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+                        </nav><button type="button" class="th-menu-toggle d-block d-lg-none"><i class="fa fa-bars"></i></button>
                     </div>
                     <div class="col-auto col-xl-2 col-md-2 d-xl-block d-none">
                         <div class="header-button"><a href="contact.php#contact-sec" class="th-btn style-radius">Request for Demo</a></div>

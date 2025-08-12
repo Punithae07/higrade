@@ -7,8 +7,15 @@
                         <div class="footer-newsletter-content">
                             <h2 class="newsletter-title text-white">Request a Live Demo</h2>
                         </div>
-                        <form class="newsletter-form"><i class="fa fa-envelope"></i> <input class="form-control" type="email" placeholder="Email Address" required=""> <button type="submit" class="th-btn">Register Now</button></form>
+                        <!-- <form class="newsletter-form"><i class="fa fa-envelope"></i> <input class="form-control" type="email" placeholder="Email Address" required=""> <button type="submit" class="th-btn">Register Now</button></form> -->
+                        <div><form id="newsletterForm" class="newsletter-form">
+                            <i class="fa fa-envelope"></i>
+                            <input class="form-control" type="email" name="email" placeholder="Email Address" required>
+                            <button type="submit" class="th-btn">Register Now</button>
+                        </form></div>
+                        <div id="newsletterResponse" style="margin-top:5px;"></div>
                     </div>
+                     
                 </div>
             </div>
         </div>
@@ -97,3 +104,36 @@
 <div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
     </svg></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.getElementById("newsletterForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let form = this;
+    let responseBox = document.getElementById("newsletterResponse");
+
+    fetch("newsletter.php", {
+        method: "POST",
+        body: new FormData(form)
+    })
+    .then(res => res.json())
+    .then(data => {
+        let alertType = data.status === 'success' ? 'success' : (data.status === 'warning' ? 'warning' : 'danger');
+        responseBox.innerHTML = `
+            <div class="alert alert-${alertType} alert-dismissible fade show" role="alert">
+                ${data.message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        `;
+        if (data.status === 'success') form.reset();
+    })
+    .catch(() => {
+        responseBox.innerHTML = `
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                Something went wrong!
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        `;
+    });
+});
+</script>

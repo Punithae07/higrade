@@ -332,15 +332,16 @@
             <div class="title-area text-center"><span class="sub-title">
                     <div class="icon-masking me-2"><img src="assets/img/theme-img/title_shape_4.svg" alt="shape"></div>contact us
                 </span>
-                <h2 class="sec-title text-white">Join now for a free Demo</h2>
+                <h2 class="sec-title text-white">Schedule a demo now</h2>
             </div>
             <div class="row gy-4 justify-content-center">
                 <div class="col-xl-9">
-                    <form action="mail.php" method="POST" class="contact-form2 ajax-contact">
+                    <!-- <form action="mail.php" method="POST" class="contact-form2 ajax-contact">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your name"> <i class="fa-solid fa-user"></i></div>
+                                <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fa-solid fa-user"></i></div>
                                 <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fa-sharp fa-solid fa-envelope"></i></div>
+                                 <div class="form-group"><input type="email" class="form-control" name="number" id="number" placeholder="Your Number"> <i class="fa-sharp fa-solid fa-phone"></i></div>
                                 <div class="col-12 form-group"><input type="checkbox" id="html"> <label for="html">I Agree With Terms of Use and Privacy Policy</label></div>
                             </div>
                             <div class="col-lg-6">
@@ -348,6 +349,68 @@
                                 <div class="form-btn"><button class="th-btn style-radius text-capitalize w-100">Send Message</button></div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
+                        </div>
+                    </form>
+                    <div id="loader" style="display:none;">Submitting...</div>
+                    <div id="response"></div> -->
+                    
+                  <!-- <form> 
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="phone" placeholder="Your Number" required>
+                                    <i class="fa-sharp fa-solid fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <textarea name="message" cols="30" rows="4" class="form-control" placeholder="Write Your Message" required></textarea>
+                                    <i class="fa-solid fa-pen"></i>
+                                </div>
+                                <div class="form-btn">
+                                    <button type="submit" class="th-btn style-radius text-capitalize w-100">Send Message</button>
+                                </div>
+                            </div>
+                            <div id="loader" style="display:none;">Submitting...</div>
+                            <div id="response"></div>
+                        </div>
+                    </form> -->
+                    <form id="homeform">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Your Name" required minlength="3">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="phone" placeholder="Your Number" 
+                                        required pattern="[0-9]{10,12}" minlength="10" maxlength="12">
+                                    <i class="fa-sharp fa-solid fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <textarea name="message" cols="30" rows="4" class="form-control" placeholder="Write Your Message" required></textarea>
+                                    <i class="fa-solid fa-pen"></i>
+                                </div>
+                                <div class="form-btn">
+                                    <button type="submit" class="th-btn style-radius text-capitalize w-100">Send Message</button>
+                                </div>
+                            </div>
+                            <div id="loader" style="display:none;">Submitting...</div>
+                            <div id="response" style="margin-top:10px;"></div>
                         </div>
                     </form>
                 </div>
@@ -657,6 +720,35 @@
 </div>
     <?php include_once('includes/footer.php'); ?>
     <?php include_once('partials/sitejs.php'); ?>
+    <script>
+        document.getElementById("homeform").addEventListener("submit", function(e){
+            e.preventDefault();
+
+            let form = this;
+            let loader = document.getElementById("loader");
+            let responseBox = document.getElementById("response");
+
+            loader.style.display = "block";
+            responseBox.innerHTML = "";
+
+            fetch("homeform.php", {
+                method: "POST",
+                body: new FormData(form)
+            })
+            .then(res => res.json())
+            .then(data => {
+                loader.style.display = "none";
+                responseBox.innerHTML = `<div class="alert alert-${data.status === 'success' ? 'success' : (data.status === 'warning' ? 'warning' : 'danger')}">${data.message}</div>`;
+                if (data.status === 'success') form.reset();
+            })
+            .catch(err => {
+                loader.style.display = "none";
+                responseBox.innerHTML = `<div class="alert alert-danger">Something went wrong!</div>`;
+            });
+        });
+</script>
+
+
 </body>
 
 </html>
