@@ -46,11 +46,13 @@ if ($conn->query($sql)) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->setFrom('punitha@boscosofttech.com', 'HiGrade Contact');
-        $mail->addAddress('punitha@boscosofttech.com');
+        $mail->setFrom('higrade@boscosofttech.com', 'HiGrade Contact');
+        $mail->addAddress('binfo@boscosofttech.com');
+        $mail->addAddress('higrade@boscosofttech.com');
+        $mail->addAddress('joeni@boscosofttech.com');
 
         $mail->isHTML(true);
-        $mail->Subject = "New Contact Submission";
+        $mail->Subject = "Higrade Demo Submission";
         $mail->Body = "
             <strong>First Name:</strong> $firstname<br>
             <strong>Last Name:</strong> $lastname<br>

@@ -64,8 +64,10 @@ if ($stmt->execute()) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
-        $mail->setFrom('punitha@boscosofttech.com', 'HiGrade Contact');
-        $mail->addAddress('punitha@boscosofttech.com'); // Recipient
+        $mail->setFrom('higrade@boscosofttech.com', 'HiGrade Contact');
+        $mail->addAddress('binfo@boscosofttech.com');
+        $mail->addAddress('higrade@boscosofttech.com');
+        $mail->addAddress('joeni@boscosofttech.com');
 
         $mail->isHTML(true);
         $mail->Subject = "HiGrade Contact Form Submission";
