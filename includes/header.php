@@ -58,7 +58,7 @@
                     <div class="col-auto col-xl-2 col-md-2 col-sm-3">
                         <div class="header-logo"><a class="icon-masking" href="index.php"><span data-mask-src="assets/img/higrade-logo.png" class="mask-icon"></span><img src="assets/img/higrade-logo01.png" alt="Webteck"></a></div>
                     </div>
-                    <div class="col-auto col-xl-8 col-md-8 col-sm-9 d-flex justify-content-center">
+                    <div class="col-auto col-xl-7 col-md-7 col-sm-8 d-flex justify-content-center">
                         <nav class="main-menu style2 d-none d-lg-inline-block">
                             <ul>
                                <li><a href="index.php">Home</a>
@@ -76,8 +76,15 @@
                             </ul>
                         </nav><button type="button" class="th-menu-toggle d-block d-lg-none"><i class="fa fa-bars"></i></button>
                     </div>
-                    <div class="col-auto col-xl-2 col-md-2 d-xl-block d-none">
+                    <div class="col-auto col-xl-3 col-md-3 d-xl-block d-none">
+                        <div class="header-button">
+                        <a href="assets/pdf/Brochure-HiGrade.pdf" download>
+                                <button type="button" class="icon-btn icon-bruch">
+                                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                                </button>
+                                </a>
                         <div class="header-button"><a href="contact.php#contact-sec" class="th-btn style-radius">Request for Demo</a></div>
+                     </div>
                     </div>
                 </div>
             </div>
