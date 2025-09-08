@@ -7,7 +7,7 @@
 
 <body class="theme-blue3">
     <?php include_once('includes/header.php'); ?>
-    <div class="th-hero-wrapper hero-16" id="hero" data-bg-src="assets/img/hero/higrade_hero.svg">
+    <div class="th-hero-wrapper hero-16" id="hero" data-bg-src="assets/img/hero/herosec.svg">
         <div class="hero-inner">
             <div class="container th-container4">
                 <div class="row justify-content-center align-items-center">
@@ -16,14 +16,17 @@
                                 <div class="icon-masking me-2"><span class="mask-icon" data-mask-src="assetassets/img/hero/higradehero02.svgs/img/theme-img/title_shape_4.svg"></span> <img src="assets/img/theme-img/title_shape_4.svg" alt="shape"></div>Welcome to HiGrade
                             </span>
                             <h1 class="hero-title">
-                            Automation-driven effectiveness in <span class="text-theme">transforming colleges</span> to deliver holistic
-                            education
+                                <!-- Automation-driven effectiveness in <span class="text-theme">transforming colleges</span> to deliver holistic
+                                education -->
+                                Smarter Systems
+                                Stronger Institutions
                             </h1>
+                            <p class="hero-text">HiGrade is a fully integrated Education Management System, trusted by top-tier institutions across India. It simplifies academic, administrative, and examination workflows — driving educational excellence through smart automation and data-driven decision-making.</p>                        
                             <div class="btn-group mb-sm-0 mb-3"><a href="contact.php#contact-sec" class="th-btn style-radius text-capitalize">Request for Demo </a>
-                            </div>          
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-6"> 
+                    <div class="col-xl-6">
                         <div class="th-hero-image">
                             <div class="th-hero-thumb"><img src="assets/img/hero/heroimage.svg" alt="img"></div>
                         </div>
@@ -39,44 +42,44 @@
         <div class="container th-container4">
             <div class="row justify-content-md-between justify-content-center gy-40">
                 <div class="col-xl-auto col-sm-6">
-                  <div class="counter-card6">
-                    <h3 class="box-number"><span class="counter-number">50</span>+</h3>
-                    <div class="media-body">
-                      <p class="counter-text mb-n2">
-                        Colleges
-                      </p>
+                    <div class="counter-card6">
+                        <h3 class="box-number"><span class="counter-number">50</span>+</h3>
+                        <div class="media-body">
+                            <p class="counter-text mb-n2">
+                                Colleges
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col-xl-auto col-sm-6">
-                  <div class="counter-card6">
-                    <h3 class="box-number"><span class="counter-number">100</span>+</h3>
-                    <div class="media-body">
-                      <p class="counter-text mb-n2">
-                        Principals & Directors
-                      </p>
+                    <div class="counter-card6">
+                        <h3 class="box-number"><span class="counter-number">100</span>+</h3>
+                        <div class="media-body">
+                            <p class="counter-text mb-n2">
+                                Principals & Directors
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col-xl-auto col-sm-6">
-                  <div class="counter-card6">
-                    <h3 class="box-number"><span class="counter-number">1000</span>+</h3>
-                    <div class="media-body">
-                      <p class="counter-text mb-n2">Faculties</p>
+                    <div class="counter-card6">
+                        <h3 class="box-number"><span class="counter-number">1000</span>+</h3>
+                        <div class="media-body">
+                            <p class="counter-text mb-n2">Faculties</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col-xl-auto col-sm-6">
-                  <div class="counter-card6">
-                    <h3 class="box-number"><span class="counter-number">60,000</span>+</h3>
-                    <div class="media-body">
-                      <p class="counter-text mb-n2">
-                        Students
-                      </p>
+                    <div class="counter-card6">
+                        <h3 class="box-number"><span class="counter-number">60,000</span>+</h3>
+                        <div class="media-body">
+                            <p class="counter-text mb-n2">
+                                Students
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </div>
     </div>
     <section class="service-sec15 space" id="service-sec">
@@ -97,7 +100,7 @@
                             <div class="service_card4">
                                 <div class="box-icon"><img src="assets/img/solutions/gui.svg" alt="Icon"></div>
                                 <h3 class="box-title"><a href="#">Modern & Intuitive Interface</a></h3>
-                                <p class="service_card4_text pb-10" >Our software features a sleek, user-friendly design that enhances usability for all users — from administrators to first-time users.</p>
+                                <p class="service_card4_text pb-10">Our software features a sleek, user-friendly design that enhances usability for all users — from administrators to first-time users.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -148,7 +151,7 @@
                                 <h3 class="box-title"><a href="#">Easy to Learn, Easy to Use</a></h3>
                                 <p class="service_card4_text pb-40">Designed with simplicity in mind, HiGrade is easy to learn even for non-technical users. We also provide detailed documentation for support.
 
-</p>
+                                </p>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -286,7 +289,7 @@
             <div class="row gy-4">
                 <div class="col-xl-6">
                     <div class="title-area"><span class="sub-title">
-                            <div class="icon-masking me-2"><img src="assets/img/theme-img/title_shape_4.svg" alt="shape"></div>kay of feature
+                            <div class="icon-masking me-2"><img src="assets/img/theme-img/title_shape_4.svg" alt="shape"></div>ke   y of feature
                         </span>
                         <h2 class="sec-title">All-in-One Platform for Smarter College Management</h2>
                         <p>It’s an all-in-one solution crafted to simplify college management and enhance productivity across departments. Take a look at the key features that transform the way institutions run, from admissions to alumni.</p>
@@ -318,7 +321,7 @@
                         </div>
                     </div>
                     <div class="feature-wrap style2">
-                        <div class="btn-wrap"><a href="features.php" class="th-btn style-border style-radius">view details</a></div>                        
+                        <div class="btn-wrap"><a href="features.php" class="th-btn style-border style-radius">view details</a></div>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -336,53 +339,6 @@
             </div>
             <div class="row gy-4 justify-content-center">
                 <div class="col-xl-9">
-                    <!-- <form action="mail.php" method="POST" class="contact-form2 ajax-contact">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fa-solid fa-user"></i></div>
-                                <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fa-sharp fa-solid fa-envelope"></i></div>
-                                 <div class="form-group"><input type="email" class="form-control" name="number" id="number" placeholder="Your Number"> <i class="fa-sharp fa-solid fa-phone"></i></div>
-                                <div class="col-12 form-group"><input type="checkbox" id="html"> <label for="html">I Agree With Terms of Use and Privacy Policy</label></div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write Your Message"></textarea> <i class="fa-solid fa-pen"></i></div>
-                                <div class="form-btn"><button class="th-btn style-radius text-capitalize w-100">Send Message</button></div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </div>
-                    </form>
-                    <div id="loader" style="display:none;">Submitting...</div>
-                    <div id="response"></div> -->
-                    
-                  <!-- <form> 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
-                                    <i class="fa-solid fa-user"></i>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="phone" placeholder="Your Number" required>
-                                    <i class="fa-sharp fa-solid fa-phone"></i>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <textarea name="message" cols="30" rows="4" class="form-control" placeholder="Write Your Message" required></textarea>
-                                    <i class="fa-solid fa-pen"></i>
-                                </div>
-                                <div class="form-btn">
-                                    <button type="submit" class="th-btn style-radius text-capitalize w-100">Send Message</button>
-                                </div>
-                            </div>
-                            <div id="loader" style="display:none;">Submitting...</div>
-                            <div id="response"></div>
-                        </div>
-                    </form> -->
                     <form id="homeform">
                         <div class="row">
                             <div class="col-lg-6">
@@ -395,7 +351,7 @@
                                     <i class="fa-sharp fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" name="phone" placeholder="Your Number" 
+                                    <input type="tel" class="form-control" name="phone" placeholder="Your Number"
                                         required pattern="[0-9]{10,12}" minlength="10" maxlength="12">
                                     <i class="fa-sharp fa-solid fa-phone"></i>
                                 </div>
@@ -431,8 +387,8 @@
                         <div class="contact-item">
                             <div class="contact-item_icon"><i class="fa-solid fa-envelope"></i></div>
                             <div class="media-body">
-                             <p class="contact-item_label">Email:</p><a href="mailto:binfo@boscosofttech.com" class="contact-item_link">binfo@boscosofttech.com</a>
-                            <a href="mailto:higrade@boscosofttech.com" class="contact-item_link">higrade@boscosofttech.com</a>
+                                <p class="contact-item_label">Email:</p><a href="mailto:binfo@boscosofttech.com" class="contact-item_link">binfo@boscosofttech.com</a>
+                                <a href="mailto:higrade@boscosofttech.com" class="contact-item_link">higrade@boscosofttech.com</a>
                             </div>
                         </div>
                     </div>
@@ -647,81 +603,87 @@
             </div>
         </div>
     </section>
-   <div class="brand-area bg-white space-bottom">
-    <div class="container th-container5">
-        <div class="title-area mb-30 text-center">
-            <h6 class="brand-title">We’ve worked on over 50 Colleges with 100+ Principals & Directors</h6>
-        </div>
-        <div class="swiper th-slider swiper-initialized swiper-horizontal swiper-backface-hidden" id="brandSlider1" data-slider-options="{&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1},&quot;576&quot;:{&quot;slidesPerView&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;1200&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;},&quot;1400&quot;:{&quot;slidesPerView&quot;:&quot;5&quot;}}}">
-            <div class="swiper-wrapper" id="swiper-wrapper-fa19992d997f1b97" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1008px, 0px, 0px); transition-delay: 0ms;">
-                <div class="swiper-slide" role="group" aria-label="1 / 7" data-swiper-slide-index="0" style="width: 250px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo4.svg" alt="Brand Logo"></div>
-                </div>
-                <!--<div class="swiper-slide" role="group" aria-label="2 / 7" data-swiper-slide-index="1" style="width: 120px; margin-right: 24px;">-->
-                <!--    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo4.svg" alt="Brand Logo"></div>-->
-                <!--</div>-->
-                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 7" data-swiper-slide-index="2" style="width: 250px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo7.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 7" data-swiper-slide-index="3" style="width: 250px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo9.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 7" data-swiper-slide-index="4" style="width: 250px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo11.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide" role="group" aria-label="6 / 7" data-swiper-slide-index="5" style="width: 250px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo12.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 250px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo13.svg" alt="Brand Logo"></div>
-                </div>
-                 <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo15.svg" alt="Brand Logo"></div>
-                </div> <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo16.svg" alt="Brand Logo"></div>
-                </div> <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo17.svg" alt="Brand Logo"></div>
-                </div> <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo18.svg" alt="Brand Logo"></div>
-                </div> <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo19.svg" alt="Brand Logo"></div>
-                </div> <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo21.svg" alt="Brand Logo"></div>
-                </div> <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo22.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo25.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo24.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/dbc.svg" alt="Brand Logo"></div>
-                </div>
-                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/st.Joseph.svg" alt="Brand Logo"></div>
-                </div>
-                 <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/hig-logo01.png" alt="Brand Logo"></div>
-                </div>
-                 <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/hig-logo02.png" alt="Brand Logo"></div>
-                </div>
-                 <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/hig-logo03.png" alt="Brand Logo"></div>
-                </div>
-                 <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
-                    <div class="brand-box1-1"><img src="assets/img/brand/hig-logo04.png" alt="Brand Logo"></div>
-                </div>
-            </div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    <div class="brand-area bg-white space-bottom">
+        <div class="container th-container5">
+            <div class="title-area mb-30 text-center">
+                <h6 class="brand-title">We’ve worked on over 50 Colleges with 100+ Principals & Directors</h6>
+            </div>
+            <div class="swiper th-slider swiper-initialized swiper-horizontal swiper-backface-hidden" id="brandSlider1" data-slider-options="{&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1},&quot;576&quot;:{&quot;slidesPerView&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;1200&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;},&quot;1400&quot;:{&quot;slidesPerView&quot;:&quot;5&quot;}}}">
+                <div class="swiper-wrapper" id="swiper-wrapper-fa19992d997f1b97" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1008px, 0px, 0px); transition-delay: 0ms;">
+                    <div class="swiper-slide" role="group" aria-label="1 / 7" data-swiper-slide-index="0" style="width: 250px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo4.svg" alt="Brand Logo"></div>
+                    </div>
+                    <!--<div class="swiper-slide" role="group" aria-label="2 / 7" data-swiper-slide-index="1" style="width: 120px; margin-right: 24px;">-->
+                    <!--    <div class="brand-box1-1"><img src="assets/img/brand/cli-logo4.svg" alt="Brand Logo"></div>-->
+                    <!--</div>-->
+                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 7" data-swiper-slide-index="2" style="width: 250px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo7.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 7" data-swiper-slide-index="3" style="width: 250px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo9.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 7" data-swiper-slide-index="4" style="width: 250px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo11.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 7" data-swiper-slide-index="5" style="width: 250px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo12.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 250px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo13.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo15.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo16.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo17.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo18.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo19.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo21.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo22.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo25.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/cli-logo24.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/dbc.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/st.Joseph.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/hig-logo01.png" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/hig-logo02.png" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/hig-logo03.png" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="6" style="width: 120px; margin-right: 24px;">
+                        <div class="brand-box1-1"><img src="assets/img/brand/hig-logo04.png" alt="Brand Logo"></div>
+                    </div>
+                </div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
         </div>
     </div>
-</div>
     <?php include_once('includes/footer.php'); ?>
     <?php include_once('partials/sitejs.php'); ?>
     <script>
-        document.getElementById("homeform").addEventListener("submit", function(e){
+        document.getElementById("homeform").addEventListener("submit", function(e) {
             e.preventDefault();
 
             let form = this;
@@ -732,21 +694,21 @@
             responseBox.innerHTML = "";
 
             fetch("homeform.php", {
-                method: "POST",
-                body: new FormData(form)
-            })
-            .then(res => res.json())
-            .then(data => {
-                loader.style.display = "none";
-                responseBox.innerHTML = `<div class="alert alert-${data.status === 'success' ? 'success' : (data.status === 'warning' ? 'warning' : 'danger')}">${data.message}</div>`;
-                if (data.status === 'success') form.reset();
-            })
-            .catch(err => {
-                loader.style.display = "none";
-                responseBox.innerHTML = `<div class="alert alert-danger">Something went wrong!</div>`;
-            });
+                    method: "POST",
+                    body: new FormData(form)
+                })
+                .then(res => res.json())
+                .then(data => {
+                    loader.style.display = "none";
+                    responseBox.innerHTML = `<div class="alert alert-${data.status === 'success' ? 'success' : (data.status === 'warning' ? 'warning' : 'danger')}">${data.message}</div>`;
+                    if (data.status === 'success') form.reset();
+                })
+                .catch(err => {
+                    loader.style.display = "none";
+                    responseBox.innerHTML = `<div class="alert alert-danger">Something went wrong!</div>`;
+                });
         });
-</script>
+    </script>
 
 
 </body>
