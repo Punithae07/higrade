@@ -7,17 +7,17 @@
 
 <body>
 <?php include_once('includes/header.php'); ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <!-- <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
       <div class="container">
         <div class="breadcumb-content">
-          <h1 class="breadcumb-title">Latest@HiGrade</h1>
+          <h1 class="breadcumb-title">Blog</h1>
           <ul class="breadcumb-menu">
             <li><a href="index.php">Home</a></li>
-            <li>Latest@HiGrade</li>
+            <li>Blog</li>
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
     <section class="th-blog-wrapper space-top space-extra-bottom">
         <div class="container">
             <div class="row">

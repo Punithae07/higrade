@@ -1,13 +1,13 @@
 <div class="cursor"></div>
 <div class="cursor2"></div>
-<div id="preloader" class="preloader">
-    <!--<button class="th-btn th-radius preloaderCls">Cancel Preloader</button>-->
+<!-- <div id="preloader" class="preloader">
+    <button class="th-btn th-radius preloaderCls">Cancel Preloader</button>
     <div id="loader" class="th-preloader">
         <div class="animation-preloader">
             <div class="txt-loading"><span preloader-text="H" class="characters">H</span> <span preloader-text="i" class="characters">i</span> <span preloader-text="G" class="characters">G</span> <span preloader-text="r" class="characters">r</span> <span preloader-text="a" class="characters">a</span> <span preloader-text="d" class="characters">d</span> <span preloader-text="e" class="characters">e</span></div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="th-menu-wrapper">
     <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fa fa-times"></i></button>
         <div class="mobile-logo"><a class="icon-masking" href="index.php"><span data-mask-src="assets/img/higrade-logo.png" class="mask-icon"></span><img src="assets/img/higrade-logo.png" alt="Webteck"></a></div>
@@ -16,14 +16,16 @@
                 <li><a href="index.php">Home</a>
                 </li>
                 <li><a href="about.php">About Us</a></li>
-                <li><a href="team.php">Team</a></li>
+                <!-- <li><a href="team.php">Team</a></li> -->
                 <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
-                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li><li><a href="our-solution.php">Our Solution</a></li></ul>
+                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li>
+                                <!-- <li><a href="our-solution.php">Our Solution</a></li> -->
+                            </ul>
                             </li>
                 <!-- <li><a href="our-solution.php">Our Solution</a></li>
                 <li><a href="service.php">Modules</a> -->
                 </li>
-                <li><a href="blog.php">Latest@HiGrade</a>
+                <li><a href="blog.php">Blog</a>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
@@ -64,13 +66,15 @@
                                <li><a href="index.php">Home</a>
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
-                                <li><a href="team.php">Team</a></li>
+                                <!-- <li><a href="team.php">Team</a></li> -->
                                 <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
-                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li><li><a href="our-solution.php">Our Solution</a></li></ul>
+                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li>
+                                <!-- <li><a href="our-solution.php">Our Solution</a></li> -->
+                            </ul>
                             </li>
                                 <!-- <li><a href="service.php">Modules</a>
                                 </li> -->
-                                <li><a href="blog.php">Latest@HiGrade</a>
+                                <li><a href="blog.php">Blog</a>
                                 </li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>

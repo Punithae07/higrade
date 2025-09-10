@@ -7,7 +7,7 @@
 
 <body>
    <?php include_once('includes/header.php'); ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <!-- <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
       <div class="container">
         <div class="breadcumb-content">
           <h1 class="breadcumb-title">About Us</h1>
@@ -17,7 +17,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="overflow-hidden space" id="about-sec">
         <div class="container">
             <div class="row align-items-center">
@@ -25,10 +25,10 @@
                     <div class="img-box1">
                         <div class="img1"><img src="assets/img/boscoft_building.svg" alt="About" class="bsf_building"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
-                        <div class="year-counter">
+                        <!-- <div class="year-counter">
                             <h3 class="year-counter_number"><span class="counter-number">25</span></h3>
                             <p class="year-counter_text">Years Experience</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-6">

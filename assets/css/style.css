@@ -2,7 +2,8 @@
 :root {
   --theme-color: #08578c;
   --theme-color2: #6e9d3e;
-  --title-color: #141d38;
+  /* --title-color: #141d38; */
+  --title-color: #08568b;
   --body-color: #737887;
   --smoke-color: #f5f5f5;
   --smoke-color2: #e2e8fa;
@@ -6539,7 +6540,7 @@ a.text-theme:hover,
   text-transform: capitalize;
 }
 .header-layout15 .menu-area {
-  background-color: var(--white-color);
+  background-color:#f3f3f3;
   padding: 16.5px 0;
 }
 .header-layout21 .menu-area {
@@ -11466,7 +11467,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   }
 }
 .hero-16 {
-  border-radius: 0 0 50px 50px;
+  /* border-radius: 0 0 50px 50px; */
   margin-bottom: -50px;
 }
 .hero-16 .th-hero-image .th-hero-thumb {
@@ -19531,7 +19532,7 @@ span.select2-selection.select2-selection--single:focus {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: var(--title-color);
+  background-color: #053250;
   box-shadow: 0px 6px 15px rgba(8, 14, 28, 0.06);
   border-radius: 10px;
   gap: 30px;
@@ -22259,7 +22260,7 @@ span.select2-selection.select2-selection--single:focus {
   transform: scale(1.08);
 }
 .blog-box2 {
-  background-color: var(--title-color);
+  background-color: #053250;
   box-shadow: 0px 5px 15px rgba(0, 31, 96, 0.06);
   padding: 30px;
   border-radius: 30px;
@@ -27361,7 +27362,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 .service_card4 {
   text-align: center;
-  background-color: #141d38;
+  background-color: #053250;
   border-radius: 20px;
   padding: 40px;
   -webkit-transition: all 1s ease;
@@ -33689,7 +33690,7 @@ span.select2-selection.select2-selection--single:focus {
 /*.clg-pripal{*/
 /*    font-size: 15px;}*/
 .bsf_building{
-    border-radius: 10px 10px 100px 40px;
+    border-radius: 10px 10px 10px 10px;
 }
 .btn-align{
         display: flex;

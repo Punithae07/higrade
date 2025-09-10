@@ -7,7 +7,7 @@
 
 <body>
   <?php include_once('includes/header.php'); ?>
-  <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+  <!-- <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
     <div class="container">
       <div class="breadcumb-content">
         <h1 class="breadcumb-title">Modules</h1>
@@ -17,7 +17,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="overflow-hidden space background-image" style="background:#0000">
     <div class="container th-container5">
       <div class="row gy-4">
