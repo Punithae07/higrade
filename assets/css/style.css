@@ -11492,7 +11492,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   margin-bottom: 5px;
 }
 .hero-style16 .hero-title {
-  font-size: 62px;
+  font-size: 51px;
   line-height: 65px;
   margin-bottom: 30px;
 }
@@ -19543,12 +19543,12 @@ span.select2-selection.select2-selection--single:focus {
   text-align: center;
 }
 .testi-box_img > img {
-  border-radius: 10px;
+  border-radius: 100px;
   width: 100%;
 }
 .testi-box_quote {
-  height: 56px;
-  width: 56px;
+  height: 50px;
+  width: 50px;
   line-height: 52px;
   background-color: var(--theme-color2);
   border-radius: 50%;
@@ -19595,6 +19595,7 @@ span.select2-selection.select2-selection--single:focus {
   padding-bottom: 23px;
   margin-bottom: 30px;
   border-bottom: 1px solid var(--smoke-color2);
+  color:#aeb1ba;
 }
 .testi-box_review {
   color: var(--theme-color);
@@ -21825,7 +21826,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 .counter-card6 .box-number {
   color: var(--white-color);
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: -2px;
   margin-top: -0.3em;
@@ -25186,8 +25187,8 @@ span.select2-selection.select2-selection--single:focus {
     border: none;
   }
 }
-.faq-area10 {
-  background-color: #eff1f9;
+.faq-area {
+  background-color: #f8fcff;
 }
 .accordion-card.style11 .accordion-button {
   color: var(--title-color);
@@ -33746,4 +33747,7 @@ span.select2-selection.select2-selection--single:focus {
     border: 1px solid #001726 !important;
     /* width: 50px;
     height: 50px; */
+}
+.contact-info-size{
+  display: flex !important;
 }

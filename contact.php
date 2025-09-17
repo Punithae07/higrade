@@ -22,7 +22,7 @@
  <div class="space">
         <div class="container">
             <div class="row gy-4">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6 contact-info-size">
                     <div class="contact-info">
                         <div class="contact-info_icon">
                             <i class="fas fa-location-dot"></i>
@@ -34,7 +34,7 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6 contact-info-size">
                     <div class="contact-info">
                         <div class="contact-info_icon"><i class="fas fa-phone"></i></div>
                         <div class="media-body">
@@ -44,7 +44,7 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6 contact-info-size">
                     <div class="contact-info">
                         <div class="contact-info_icon">
                             <i class="fas fa-envelope"></i>
