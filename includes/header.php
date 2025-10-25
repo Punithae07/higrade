@@ -17,15 +17,23 @@
                 </li>
                 <li><a href="about.php">About Us</a></li>
                 <!-- <li><a href="team.php">Team</a></li> -->
-                <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
-                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li>
-                                <!-- <li><a href="our-solution.php">Our Solution</a></li> -->
-                            </ul>
-                            </li>
-                <!-- <li><a href="our-solution.php">Our Solution</a></li>
-                <li><a href="service.php">Modules</a> -->
+                <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>
+                    <ul class="sub-menu">
+                        <li><a href="service.php">Modules</a></li>
+                        <li><a href="service.php">Key Benefits</a></li>
+                        <li><a href="service.php">Key Features</a></li>
+                        <li><a href="support.php">Support</a></li>
+                    </ul>
                 </li>
-                <li><a href="blog.php">Blog</a>
+                </li>
+                <li class="menu-item-has-children"><a href="blog.php">Resource hub</a>
+                    <ul class="sub-menu">
+                        <li><a href="service.php">Case Studies</a></li>
+                        <li><a href="service.php">White Papers</a></li>
+                        <li><a href="service.php">Webinars</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Partnership</a>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
@@ -60,38 +68,46 @@
                     <div class="col-auto col-xl-2 col-md-2 col-sm-3">
                         <div class="header-logo"><a class="icon-masking" href="index.php"><span data-mask-src="assets/img/higrade-logo.png" class="mask-icon"></span><img src="assets/img/higrade-logo01.png" alt="Webteck"></a></div>
                     </div>
-                    <div class="col-auto col-xl-7 col-md-7 col-sm-8 d-flex justify-content-center">
+                    <div class="col-auto col-xl-6 col-md-6 col-sm-8 d-flex justify-content-center">
                         <nav class="main-menu style2 d-none d-lg-inline-block">
                             <ul>
-                               <li><a href="index.php">Home</a>
+                                <li><a href="index.php">Home</a>
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <!-- <li><a href="team.php">Team</a></li> -->
-                                <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>    
-                                <ul class="sub-menu"><li><a href="service.php">Modules</a></li>
-                                <!-- <li><a href="our-solution.php">Our Solution</a></li> -->
-                            </ul>
-                            </li>
-                                <!-- <li><a href="service.php">Modules</a>
-                                </li> -->
-                                <li><a href="blog.php">Blog</a>
+                                <li class="menu-item-has-children"><a href="javascriptvoid:(0)">Solution</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="service.php">Modules</a></li>
+                                        <li><a href="service.php">Key Benefits</a></li>
+                                        <li><a href="service.php">Key Features</a></li>
+                                        <li><a href="support.php">Support</a></li>
+                                    </ul>
+                                </li>
+                                </li>
+                                <li class="menu-item-has-children"><a href="blog.php">Resource hub</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="service.php">Case Studies</a></li>
+                                        <li><a href="service.php">White Papers</a></li>
+                                        <li><a href="service.php">Webinars</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Partnership</a>
                                 </li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
-                        </nav><button type="button" class="th-menu-toggle d-block d-lg-none"><i class="fa fa-bars"></i></button>
+                        </nav>
+                        <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="fa fa-bars"></i></button>
                     </div>
-                    <div class="col-auto col-xl-3 col-md-3 d-xl-block d-none">
-                        <div class="header-button">
-                        <a href="assets/pdf/Brochure-HiGrade.pdf" download>
-                                <button type="button" class="icon-btn icon-bruch">
-                                    <i class="fa-solid fa-cloud-arrow-down"></i>
-                                </button>
-                                </a>
-                        <div class="header-button"><a href="contact.php#contact-sec" class="th-btn style-radius">Request for Demo</a></div>
-                     </div>
+                    <div class="col-auto col-xl-4 col-md-4 col-sm-1 d-xl-block d-none d-flex">
+                            <div class="header-button"><a href="assets/pdf/Brochure-HiGrade.pdf" download class="th-btn style-radius">Brochure</a><a href="contact.html" class="th-btn style8 style-radius">Request For Demo</a>
+                             </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
+    </div>
+    </div>
     </div>
 </header>

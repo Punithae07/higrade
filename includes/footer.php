@@ -27,7 +27,8 @@
                         <div class="th-widget-about style2">
                             <p class="about-text">Bosco Soft Technologies Pvt. Ltd. marks a remarkable 25+ years of journey in the IT industry, delivering sophisticated and innovative solutions on a global scale.<a href="about.php" class="line-btn footerlink">Read More<i class="fa-solid fa-right"></i></a></p>
                             <div class="th-social"><a href="https://www.facebook.com/higradeerp/" target="_blank"><i class="fab fa-facebook-f"></i></a> <a href="https://twitter.com/boscosoft?lang=en" Target="_blank"><i class="fa-brands fa-twitter"></i></a> <a href="https://www.linkedin.com/showcase/104108578/admin/inbox/" Target="_blank"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/channel/UCBs91zb6NGNEyE5kPBd--Jg" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://www.instagram.com/higrade_college.erp/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://www.whatsapp.com/channel/0029VaWovppJ93waQU2krk2i" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></div>
-                        </div>
+                            <img src="assets/img/boscosoft-logo.webp" alt="" class="footer-logo">
+                            </div>
                     </div>
                 </div>
                 <!-- <div class="col-md-6 col-xl-auto">
@@ -48,11 +49,10 @@
                         <h3 class="widget_title style2 text-white">Quick Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="about.php">About</a></li>
-                                <li><a href="team.php">Team</a></li>
-                                <li><a href="our-solution.php">Our Solution</a></li>
-                                <li><a href="service.php">Modules</a></li>
-                                <li><a href="blog.php">Latest@HiGrade</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="service.php">Solution</a></li>
+                                <li><a href="blog.php">Resource Hub</a></li>
+                                <li><a href="#">Partnership</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
@@ -78,6 +78,17 @@
                 <div class="col-md-6 col-xl-auto">
                     <div class="widget widget_offer footer-widget">
                         <h3 class="widget_title style2 text-white">Get the app</h3>
+                        <h6 class="brand-title test-title">Faculty</h6>
+                        <div class="download-btn-wrap">
+                            <div class="mb-10"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.higrade&pli=1" class="download-btn"><img src="assets/img/normal/google-play.png" alt=""></a></div>
+                            <div><a target="_blank" href="https://apps.apple.com/us/app/higrade/id6476916403" class="download-btn"><img src="assets/img/normal/app.png" alt=""></a></div>
+                        </div>
+                        <h6 class="brand-title test-title">Student</h6>
+                        <div class="download-btn-wrap">
+                            <div class="mb-10"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.higrade&pli=1" class="download-btn"><img src="assets/img/normal/google-play.png" alt=""></a></div>
+                            <div><a target="_blank" href="https://apps.apple.com/us/app/higrade/id6476916403" class="download-btn"><img src="assets/img/normal/app.png" alt=""></a></div>
+                        </div>
+                        <h6 class="brand-title test-title">Parents</h6>
                         <div class="download-btn-wrap">
                             <div class="mb-10"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.higrade&pli=1" class="download-btn"><img src="assets/img/normal/google-play.png" alt=""></a></div>
                             <div><a target="_blank" href="https://apps.apple.com/us/app/higrade/id6476916403" class="download-btn"><img src="assets/img/normal/app.png" alt=""></a></div>

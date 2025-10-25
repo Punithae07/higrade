@@ -23,7 +23,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1">
-                        <div class="img1"><img src="assets/img/boscoft_building.svg" alt="About" class="bsf_building"></div>
+                        <div class="img1"><img src="assets/img/boscosoft_building.webp" alt="About" class="bsf_building"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
                         <!-- <div class="year-counter">
                             <h3 class="year-counter_number"><span class="counter-number">25</span></h3>
@@ -38,6 +38,7 @@
                              <h5 class="sec-title">IT and IT-Enabled Solution Provider for Corporates and Service Sectors</h5>
                         </div>
                         <p class="mt-n2 mb-25">Bosco Soft Technologies Pvt. Ltd is a professionally managed Corporate Group having technocrats who are experienced in IT sector. It is promoted by the Salesians of Don Bosco, a pioneering community in the field of education both in IT field as well as in conventional learning. We aim at transforming our Clients corporate / service vision into a professionally performing reality by leveraging the current technologies and resources.<br>It provides best-in-class products and services to its clients by leveraging the best tools and technology and delivers effective results that are customized, for client’s unique needs on time.</p>
+                        <a href="https://boscosofttech.com/" target="_blank" class="th-btn style8 style-radius">More Details</a>
                     </div>
                 </div>
             </div>

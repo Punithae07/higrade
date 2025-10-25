@@ -40,7 +40,7 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                         <div class="media-body">
                             <h4 class="box-title">Call Us Anytime</h4>
                             <span class="contact-info_text"><a href="tel:+91 9626800 800">+91 96 26 800 800</a>
-                                <a href="tel:+91 9787721154">+91 97 87 721 154</a></span>
+                                <a href="tel:+91 9787721156">+91 97 87 721 156</a></span>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
 <div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
     <div class="container">
         <div class="row">
-            <div class="col-xl-8">
+            <div class="col-xl-6">
                 <div class="title-area mb-35 text-xl-start text-center">
                     <span class="sub-title">
                         <div class="icon-masking me-2">
@@ -73,9 +73,8 @@ No. 231/77, S.H.C Complex,<br> Tirupattur District Tamil Nadu,<br> India – 635
                         </div>
                         contact with us!
                     </span>
-                    <h2 class="sec-title">Join now for Demo</h2>        
+                    <h2 class="sec-title">Join Now for a Demo and Quote</h2>        
                 </div>
-            
                    <form id="contactForm">
                         <div class="row g-3 mb-5">
                             <div class="col-md-6 mb-3">
