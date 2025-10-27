@@ -41,8 +41,8 @@ if ($conn->query($sql)) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'punitha@boscosofttech.com';
-        $mail->Password = 'skww qihs pxav brkl'; // App password
+        $mail->Username = 'punitha@dbcyelagiri.edu.in';
+        $mail->Password = 'rqgw wrhj dait mqce'; // App password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
